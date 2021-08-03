@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <form width="500px">
+    <fieldset>
+        <legend>Purchases</legend>
+
+
+        <label for="pname">Product Name</label>
+        <br>
+        <select>
+            <option value="apple">Apple</option>
+            <option value="egg">Egg</option>
+        </select>
+
+        <br>
+
+        <label for="quantity">Quantity</label>
+        <br>
+        <input type="text">
+
+
+    </fieldset>
+
+
+    <fieldset>
+        <legend>Personal details</legend>
+
+        <label for="first-name">First Name</label>
+        <br>
+        <input type="text">
+        <br>
+        <label for="last-name">Last Name</label>
+        <br>
+        <input type="text">
+    </fieldset>
+
+
+    <fieldset>
+        <legend>Credit Card Details</legend>
+        <label for="credit-card">Credit card type</label>
+        <br>
+        <label for="credit-card-radio">
+            <input type="radio" name="Visa" id="visa">Visa
+        </label>
+        <br>
+        <label for="credit-card-radio">
+            <input type="radio" name="Mastercard" id="mastercard">Mastercard
+        </label>
+        <br>
+        <label for="credit-num">Credit card number</label>
+        <br>
+        <input type="text">
+        <br>
+        <label for="expire-date">Expire Date</label>
+        <br>
+        <input type="text">
+    </fieldset>
+
+
+    <fieldset>
+        <legend>Billing Information</legend>
+        <label for="postal-address">Postal Address</label>
+        <br>
+        <textarea name="postal-address" id="postal-address" cols="50" rows="5"></textarea>
+        <br>
+        <label for="home-address">Home address</label>
+        <input type="checkbox">Same as above
+        <br>
+        <textarea name="home-address" id="home-address" cols="50" rows="5"></textarea>
+    </fieldset>
+    <button>Place my order</button>
+   </form>
+</body>
+</html>
